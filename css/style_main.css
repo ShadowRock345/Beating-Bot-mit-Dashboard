@@ -9,10 +9,8 @@ body{
     height: 100%;
 }
 
-#particles-js{
-    backdrop-image: url(/img/logo.png);
-    background-size: cover;
-    height: 680px;
+#particles-js {
+    background-color: black;
 }
 
 .navbar{
@@ -37,7 +35,7 @@ body{
     text-decoration: underline;
 }
 .footer{
-    background-color: black;
+    background-color: white;
     padding: 10px 1%;
     color: white;
     position: absolute;
