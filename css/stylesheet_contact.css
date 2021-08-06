@@ -1,0 +1,26 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+}
+.form input{
+    padding: 7px;
+    border-radius: 20px;
+    border: ipx solid #00ff7b;
+    margin: 0 20px;
+}
+.btn{
+    background-color: #00ff7b;
+    color: #fff;
+    font-weight: 700;
+}
+.footer{
+    background-color: #393939;
+    padding: 30px 1%;
+    color: white;
+}
+.footer p1{
+    color: white;
+    letter-spacing: normal;
+}

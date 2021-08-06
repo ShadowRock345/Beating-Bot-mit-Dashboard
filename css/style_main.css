@@ -1,0 +1,166 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: block; 
+    text-align: center;
+    height: 100%;
+}
+
+#particles-js{
+    backdrop-image: url(/img/logo.png);
+    background-size: cover;
+    height: 680px;
+}
+
+.navbar{
+    background-color: black;
+    height: 50px;
+}
+.navlist{
+    float: left;
+}
+.navlist li{
+    display: inline-block;
+    margin: 0 50px;
+    color: white;
+}
+.navlist li a{
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.navlist li a:hover{
+    color:aqua;
+    text-decoration: underline;
+}
+.footer{
+    background-color: black;
+    padding: 10px 1%;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}
+.footer p1{
+    color: white;
+    letter-spacing: normal;
+}
+.hovering {
+    -webkit-animation-name: hovering;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: hovering;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+    animation-name: hovering;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes hovering {
+    from {-webkit-transform:translate(0, 0px);}
+    50% {-webkit-transform:translate(0, -25px);}
+    to {-webkit-transform: translate(0, -0px);}
+}
+
+@-moz-keyframes hovering {
+    from {-moz-transform:translate(0, 0px);}
+    50% {-moz-transform:translate(0, -25px);}
+    to {-moz-transform: translate(0, -0px);}
+}
+
+@keyframes hovering {
+    from {transform:translate(0, 0px);}
+    50% {transform:translate(0, -25px);}
+    to {transform: translate(0, -0px);}
+}
+
+.myButtons {
+	box-shadow: 0px 0px 0px 0px #0000ff;
+	background:linear-gradient(to bottom, #0000fc 5%, #0900ff 100%);
+	background-color:#0000fc;
+	border-radius:42px;
+	border:3px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:italic;
+	padding:9px 18px;
+	text-decoration:none;
+	text-shadow:0px 3px 1px #1100ff;
+}
+.myButtons:hover {
+	background:linear-gradient(to bottom, #0900ff 5%, #0000fc 100%);
+	background-color:#0900ff;
+}
+.myButtons:active {
+	position:relative;
+	top:1px;
+}
+.myAddButton {
+	box-shadow: 0px 0px 0px 2px #000000;
+	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
+	background-color:#000000;
+	border-radius:10px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:5px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.myAddButton:hover {
+	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
+	background-color:#000000;
+}
+.myAddButton:active {
+	position:relative;
+	top:1px;
+}
+#wrapper {
+    position: relative;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+#content {
+    padding-bottom: 10px;
+}
+html, body {
+    height: 100%;
+}
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+#cookie-popup { 
+    text-align: center; 
+    background: red;
+    position: fixed;
+    top: 0px; 
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    font-size:14px; 
+    line-height:20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+   
+  #cookie-popup.hidden {
+    display: none;
+  }
