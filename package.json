@@ -1,0 +1,30 @@
+{
+  "name": "among-us-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "engines": {
+    "node": ">=0.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.0",
+    "discord-buttons": "^3.2.1",
+    "discord-player": "^3.4.0",
+    "discord-ytdl-core": "^5.0.2",
+    "discord.js": "^12.5.3",
+    "distube": "^2.8.12",
+    "ffmpeg-static": "^4.3.0",
+    "http-module": "0.0.5",
+    "merge-options": "^3.0.4",
+    "node-fetch": "^2.6.1",
+    "spotify-url-info": "^2.2.0",
+    "ytdl-core": "^4.7.0",
+    "ytpl": "^2.1.1",
+    "ytsr": "^3.4.1"
+  }
+}
